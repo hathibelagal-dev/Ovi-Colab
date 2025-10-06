@@ -6,8 +6,8 @@ shift: 5.0
 sp_size: 1
 audio_guidance_scale: 3.0
 video_guidance_scale: 4.0
-mode: "i2v" # ["t2v", "i2v", "t2i2v"] all comes with audio
-fp8: False
+mode: "i2v"
+fp8: True
 cpu_offload: False
 seed: 103
 video_negative_prompt: "jitter, bad hands, blur, distortion"  # Artifacts to avoid in video
