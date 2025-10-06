@@ -54,10 +54,10 @@ def main(output_dir: str):
 
     ovi_dir = os.path.join(output_dir, "Ovi")
     timed_download(
-        repo_id="chetwinlow1/Ovi",
+        repo_id="rkfg/Ovi-fp8_quantized",
         local_dir=ovi_dir,
         allow_patterns=[
-            "model.safetensors"
+            "model_fp8_e4m3fn.safetensors"
         ]
     )
 
